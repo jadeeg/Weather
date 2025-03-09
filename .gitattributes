@@ -7,6 +7,12 @@
 </head>
 <body>
     <h1>Welcome to the Weather App</h1>
-    Hi
+<footer>
+Coded by 
+<a href= "https://github.com/jadeeg" target = "_blank"> Jade Gonçalves
+and 
+<a href= " " target= " "> hosted on Netify </a>
+
+</footer>
 </body>
 </html>
