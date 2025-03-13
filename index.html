@@ -10,29 +10,29 @@
     <title>Weather App</title>
   </head>
   <body>
-    <img src="" alt="Flowing Image" id="backgroundimage" />
     <div id="container">
   
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.. "id="city" required/>
-          <input type="submit" value="Search" id="button" />
-        </form>
+        <form id="form-weather"> 
+          <input type="search" placeholder="Enter a city..." id="city" required/>
+          <button type="submit" id="button" >Search </button>
+        </form> 
       </header>
       <main>
-        <h1 id=currentlyCity>Currently city</h1>
+        <h1 id= "currentCity">Current city</h1>
       </main>
       <div id="weather-info">
       <h2 id="temperature">
-         38 c <p> </p>
+          38°C <p> </p>
       </h2>
       <div id= "condition"> 
         Condition
 
       </div>
-      <div id=" wind">
+      <div id="wind">
       Wind
       </div>
+      <img src = "https://i.postimg.cc/44pfp6mg/reference-image.jpg" id= image>
       </div>
       <footer>
         Coded by

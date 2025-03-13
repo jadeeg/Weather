@@ -2,7 +2,7 @@
 
 body {
 
-  color:#8F9779;
+  color:#c8d3a9;
  font-family: "Madimi One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -14,23 +14,31 @@ body {
   margin: 0 auto;
   box-shadow: 0px 4px 8px #8F9779; 
   border-radius: 15px;
-   text-align: center;
-    background-image: url("https://i.postimg.cc/76WZyvcn/7920256.jpg");
+    background-image: url("https://i.postimg.cc/XYjYjrN0/adjusted-image.jpg");
   padding: auto ;
+
  
 }
 
 
-  #currentlyCity {
-  font-size: 38px;
-  font-display: center;
-  color: #ffff;
+  #currentCity {
+  font-size: 50px;
+ text-align: center;
+  color: #f2ffce;
+  font-weight: 200;
+   text-shadow:
+     -4px -2px 0  #000000
+   ;
 }
 
 #weather-info {
   text-align: center;
   padding:  0;
   font-size: 2em;
+  text-shadow:
+     -4px -2px 0  #043927
+   ;
+  
 
 }
   #temperature {
@@ -46,26 +54,62 @@ footer, a
 {
   text-align: center;
   padding: 20px 0;
-  color: #8F9779;
+  color: #f2ffce;
    font-size:15px ;
+    text-shadow:
+     -2px -2.5px 0  #000000
+   ;
+}
 
 }
 
 #city { 
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Madimi One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 10px 10px;
-  border-radius: 50px;
+  background-color: #c8d3a9;
+  padding: 2px 2px;
+  margin: 10px 10px;
   background-color: #8F9779;
-  
+  display:inline-block;
+ box-shadow:
+      -2px -4px  #043927;
+   border-radius: 20px;
+}
+
+#city::placeholder {
+background-color: #c8d3a9;
+ 
+
+}
+#form-weather {
+  display: flex;
+  justify-content: center;
+  box-shadow:
+      -2px -1px   #043927
+   ;
 }
  #button {
   color: #043927;
  background-color: #8F9779;
-  padding: 13px 10px;
-  margin: 25px;
+ padding : 18px 20px;
+ margin: 10px 20px;
   border-radius: 50%;
   font-family: "Madimi One", sans-serif;
+  display: flex;
+  justify-content: center;
+ 
+ }
+
+ #button:hover {
+background-color: #c8d3a9;
+
+
+}
+
+ #image {
+   width: 25%;
+   border-radius: 30%;
+ 
  }
