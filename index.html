@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="src/style.css" />
+   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,30 +10,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Madimi+One&display=swap" rel="stylesheet">
     <title>Weather App</title>
   </head>
-  <body>
+  <body id="body">
+    <button id="buttonDarkTheme"> Dark theme </button>
     <div id="container">
   
       <header>
-        <form id="form-weather"> 
-          <input type="search" placeholder="Enter a city..." id="city" required/>
-          <button type="submit" id="button" >Search </button>
-        </form> 
+      <form id="form-weather">
+    <input type="search" placeholder="Enter a city..." id="city" name="city" required />
+    <button type="submit" id="button">Search</button>
+  </form>
+
       </header>
       <main>
-        <h1 id= "currentCity">Current city</h1>
+        <h1 class="currentCity" id= "currentCity">  Today’s Forecast </h1>
       </main>
       <div id="weather-info">
       <h2 id="temperature">
-          38°C <p> </p>
       </h2>
       <div id= "condition"> 
-        Condition
-
+        🌤
       </div>
+  
       <div id="wind">
       Wind
       </div>
-      <img src = "https://i.postimg.cc/44pfp6mg/reference-image.jpg" id= image>
+      <img src = "" id= image>
       </div>
       <footer>
         Coded by
@@ -44,8 +46,7 @@
         </a>
         <h3 href="https://www.freepik.com/icon/sky_14923175#fromView=search&page=1&position=0&uuid=8704cb4d-765a-4341-ab6e-1751e296ded1">
       </footer>
-      
 
-
+ <script  src= "src/script.js"></script>
   </body>
 </html>

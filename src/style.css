@@ -7,27 +7,28 @@ body {
   font-weight: 400;
   font-style: normal;
     background-image: url('https://i.postimg.cc/t4KQ3q66/marek-szturc-4-CDdd1-RCt6w-unsplash.jpg');
+    background-image: no-repeat;
+    background-size: cover;
 }
 
 #container {
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
   box-shadow: 0px 4px 8px #8F9779; 
   border-radius: 15px;
-    background-image: url("https://i.postimg.cc/XYjYjrN0/adjusted-image.jpg");
+   background-image: url('https://i.postimg.cc/BQ5m3QzS/teemu-paananen-OOE4x-An-Bh-Ko-unsplash-1.jpg');
   padding: auto ;
 
- 
 }
 
 
   #currentCity {
-  font-size: 50px;
+  font-size: 60px;
  text-align: center;
-  color: #f2ffce;
+  color: #e7f663;
   font-weight: 200;
    text-shadow:
-     -4px -2px 0  #000000
+     -8px -2px 0  #000000
    ;
 }
 
@@ -42,10 +43,11 @@ body {
 
 }
   #temperature {
-    font-size: 40px;
+    font-size: 60px;
      font-family: "Madimi One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color:#c9c9c9;
 
   }
 
@@ -55,61 +57,67 @@ footer, a
   text-align: center;
   padding: 20px 0;
   color: #f2ffce;
-   font-size:15px ;
+   font-size:12px ;
     text-shadow:
      -2px -2.5px 0  #000000
    ;
 }
 
-}
 
-#city { 
-  font-size: 20px;
-  font-family: "Madimi One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #c8d3a9;
-  padding: 2px 2px;
-  margin: 10px 10px;
-  background-color: #8F9779;
-  display:inline-block;
- box-shadow:
-      -2px -4px  #043927;
-   border-radius: 20px;
-}
 
-#city::placeholder {
-background-color: #c8d3a9;
- 
 
-}
-#form-weather {
-  display: flex;
+
+
+
+
+#form-weather { 
+   display: flex;
   justify-content: center;
-  box-shadow:
-      -2px -1px   #043927
-   ;
+   
+
+
+ 
+}
+#city {
+  border: 3px solid #c8d3a9;
+  border-right: none;
+  padding: 1px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #ffffff;
+  font-size: 25px;
+  width: 70%;
+  height: 36px;
+  background-color: #032217;
+   font-family: "Madimi One", sans-serif;
 }
  #button {
-  color: #043927;
- background-color: #8F9779;
- padding : 18px 20px;
- margin: 10px 20px;
-  border-radius: 50%;
-  font-family: "Madimi One", sans-serif;
-  display: flex;
-  justify-content: center;
+   width: 20%;
+  height: 36px;
+  border: 3px solid #e7f663;
+  background: #e7f663;
+  text-align: center;
+  color: #000000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+   font-family: "Madimi One", sans-serif;
+  transition: all 0.3s ease-in-out;
  
  }
 
  #button:hover {
-background-color: #c8d3a9;
-
+background-color:#000000
+color: #f2ffce; 
 
 }
+
 
  #image {
    width: 25%;
    border-radius: 30%;
  
+ }
+
+
  }
